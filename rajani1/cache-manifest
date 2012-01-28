@@ -1,7 +1,6 @@
 CACHE MANIFEST
-#version 4
-./rajani.js
-./rajani.jpeg
+./rajani.js?v=1
+./rajani.jpeg?v=1
 NETWORK:
 *
 
