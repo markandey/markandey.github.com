@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Index</title>
-    <script src="./rajani.js" type="text/javascript" charset="utf-8">
+    
         
     </script>
     <style type="text/css" media="screen">
@@ -11,26 +11,43 @@
         text-align:center;
         background:#cccccc;
         color:red;
+        ----webkit-transition-duration: 1s;
     }
     #main{
-        background:#ffff00;
+        background:#fefefe;
         text-align:center;
         margin:auto;
         padding:10px;
         width:900px;
     }
-    #rajani{
-        -webkit-transition-duration: 0.5s;
+    #main{
+        ----webkit-transition-duration: 1s;
+    }
+    #canvas{
+        width:300px;
+        height:300px;
+        border:1px solid red;
+        position: absolute;
+        top:0px;
+        left:0px;
+
+        width:100%;
+        height:100%;
     }
     </style>
 </head>
 <body>
     <div id="main">
         <h1>HI I AM RAJANI KANT</h1>
+        <div id="pos" > click me to edit</div>
         <a id="edit" href="#"> click me to edit</a>
+
         <p>This is my site</p>
         <img id="rajani" src="./rajani.jpeg"></img>
     </div>
+    <canvas id="canvas" width="2000" height="2000">
+    </canvas>
 </body>
+<script src="./rajani.js"></script>
 </html>
 
